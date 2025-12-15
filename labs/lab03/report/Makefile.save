@@ -1,0 +1,10 @@
+all:cd
+
+
+
+	-@quarto render
+
+clean:
+	-rm -rf _oz
+cleanall: clean
+	-rm -rf .quarto
